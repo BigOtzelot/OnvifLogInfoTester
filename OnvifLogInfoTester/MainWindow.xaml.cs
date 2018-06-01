@@ -57,6 +57,7 @@ namespace OnvifVideoSample
             }
             catch (Exception ex)
             {
+                listBox.Items.Add(address.Text);
                 listBox.Items.Add("GetDeviceInformation throw an exception:");
                 listBox.Items.Add(ex.Message);
             }

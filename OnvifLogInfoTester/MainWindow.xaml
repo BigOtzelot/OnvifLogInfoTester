@@ -7,10 +7,11 @@
 		mc:Ignorable="d"
         Title="Leave empty for connecting to SpotlightChallangeTest-Cameras" Height="377.285" Width="525">
 	<Grid>
-        <ListBox x:Name="listBox" HorizontalAlignment="Stretch" Margin="18,74,0,0" VerticalAlignment="Stretch"/>
-        <TextBox x:Name="address" HorizontalAlignment="Left" Height="27" Margin="18,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" Foreground="DarkGray"/>
-		<TextBox x:Name="user" HorizontalAlignment="Left" Height="27" Margin="202,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Foreground="DarkGray"/>
-        <PasswordBox x:Name="password" HorizontalAlignment="Left" Height="27" Margin="357,15,0,0" VerticalAlignment="Top" Width="150" Foreground="DarkGray" Password=""/>
-		<Button x:Name="button" Content="Connect" HorizontalAlignment="Left" Margin="18,47,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.405,-0.212"/>
+        <TextBlock>Enter IP<LineBreak /><LineBreak />User <LineBreak /><LineBreak /> Password</TextBlock>
+        <ListBox x:Name="listBox" HorizontalAlignment="Stretch" Margin="0,96,18,37" VerticalAlignment="Stretch"/>
+        <TextBox x:Name="address" HorizontalAlignment="Left" Height="27" Margin="113,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" Foreground="DarkGray"/>
+		<TextBox x:Name="user" HorizontalAlignment="Left" Height="27" Margin="113,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" Foreground="DarkGray"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Height="27" Margin="113,64,0,0" VerticalAlignment="Top" Width="179" Foreground="DarkGray" Password=""/>
+		<Button x:Name="button" Content="Connect" HorizontalAlignment="Left" Margin="347,32,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.405,-0.212" />
 	</Grid>
 </Window>
