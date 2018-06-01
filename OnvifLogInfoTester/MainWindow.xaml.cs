@@ -180,36 +180,67 @@ namespace OnvifVideoSample
             {
                 //Bosch
                 address.Text = "193.159.244.134";
+                listBox.Items.Add("Bosch " + address.Text);
                 user.Text = "service";
                 password.Password = "Xbks8tr8vT!";
                 TestThis();
 
                 //Bosch
                 address.Text = "193.159.244.132";
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("----------------------------------------------------------");
+                listBox.Items.Add("Bosch " + address.Text);
                 user.Text = "service";
                 password.Password = "Xbks8tr8vT!";
                 TestThis();
 
                 //Axis
                 address.Text = "195.60.68.239";
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("----------------------------------------------------------");
+                listBox.Items.Add("Axis " + address.Text);
                 user.Text = "operator";
                 password.Password = "Onv!f2018";
                 TestThis();
 
                 //Hikvision
                 address.Text = "123.157.208.28:81";
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("----------------------------------------------------------");
+                listBox.Items.Add("Hikvision " + address.Text);
                 user.Text = "admin";
                 password.Password = "abcd1234";
                 TestThis();
 
                 //Uniview
                 address.Text = "61.164.52.166:88";
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("----------------------------------------------------------");
+                listBox.Items.Add("Uniview " + address.Text);
                 user.Text = "admin";
                 password.Password = "Uniview2018";
                 TestThis();
 
                 //Dahua
                 address.Text = "60.191.94.122:8086";
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("");
+                listBox.Items.Add("----------------------------------------------------------");
+                listBox.Items.Add("Dahua " + address.Text);
                 user.Text = "admin";
                 password.Password = "a1b2c3d4";
                 TestThis();
